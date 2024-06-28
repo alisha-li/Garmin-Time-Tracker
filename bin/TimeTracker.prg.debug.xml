@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/alishali/Desktop/garminTracker/TimeTracker/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="1" lineNum="20" parent="globals/TimeTrackerDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="2" lineNum="31" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="2" lineNum="32" parent="globals" pc="268435489" symbol="getApp"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="4" lineNum="7" parent="globals/TimeTrackerView" pc="268435529" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="5" lineNum="5" parent="globals/TimeTrackerMenuDelegate" pc="268435548" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="6" lineNum="8" parent="globals/TimeTrackerApp" pc="268435567" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="101" parent="globals/TimeTrackerDelegate" pc="268435586" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="102" parent="globals/TimeTrackerDelegate" pc="268435588" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="103" parent="globals/TimeTrackerDelegate" pc="268435623" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="104" parent="globals/TimeTrackerDelegate" pc="268435634" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="105" parent="globals/TimeTrackerDelegate" pc="268435658" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="107" parent="globals/TimeTrackerDelegate" pc="268435693" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="108" parent="globals/TimeTrackerDelegate" pc="268435725" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="109" parent="globals/TimeTrackerDelegate" pc="268435751" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="110" parent="globals/TimeTrackerDelegate" pc="268435783" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="111" parent="globals/TimeTrackerDelegate" pc="268435809" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="7" lineNum="114" parent="globals/TimeTrackerDelegate" pc="268435887" symbol="onResponse"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="25" parent="globals/TimeTrackerDelegate" pc="268435920" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="26" parent="globals/TimeTrackerDelegate" pc="268435922" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="27" parent="globals/TimeTrackerDelegate" pc="268435940" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="28" parent="globals/TimeTrackerDelegate" pc="268435974" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="29" parent="globals/TimeTrackerDelegate" pc="268435990" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="30" parent="globals/TimeTrackerDelegate" pc="268436003" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="31" parent="globals/TimeTrackerDelegate" pc="268436030" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="8" lineNum="33" parent="globals/TimeTrackerDelegate" pc="268436063" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="9" lineNum="79" parent="globals/TimeTrackerDelegate" pc="268436095" symbol="sendToToggle"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="9" lineNum="81" parent="globals/TimeTrackerDelegate" pc="268436099" symbol="sendToToggle"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="9" lineNum="89" parent="globals/TimeTrackerDelegate" pc="268436163" symbol="sendToToggle"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="9" lineNum="96" parent="globals/TimeTrackerDelegate" pc="268436245" symbol="sendToToggle"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="9" lineNum="98" parent="globals/TimeTrackerDelegate" pc="268436286" symbol="sendToToggle"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="36" parent="globals/TimeTrackerDelegate" pc="268436289" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="37" parent="globals/TimeTrackerDelegate" pc="268436293" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="38" parent="globals/TimeTrackerDelegate" pc="268436373" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="40" parent="globals/TimeTrackerDelegate" pc="268436398" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="42" parent="globals/TimeTrackerDelegate" pc="268436464" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="44" parent="globals/TimeTrackerDelegate" pc="268436496" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="45" parent="globals/TimeTrackerDelegate" pc="268436514" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="47" parent="globals/TimeTrackerDelegate" pc="268436532" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="48" parent="globals/TimeTrackerDelegate" pc="268436562" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="52" parent="globals/TimeTrackerDelegate" pc="268436578" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="53" parent="globals/TimeTrackerDelegate" pc="268436617" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="61" parent="globals/TimeTrackerDelegate" pc="268436831" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="62" parent="globals/TimeTrackerDelegate" pc="268436851" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="64" parent="globals/TimeTrackerDelegate" pc="268436867" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="65" parent="globals/TimeTrackerDelegate" pc="268436887" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="67" parent="globals/TimeTrackerDelegate" pc="268436903" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="68" parent="globals/TimeTrackerDelegate" pc="268436923" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="70" parent="globals/TimeTrackerDelegate" pc="268436939" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="71" parent="globals/TimeTrackerDelegate" pc="268436959" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerDelegate.mc" id="10" lineNum="76" parent="globals/TimeTrackerDelegate" pc="268436978" symbol="onKey"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="11" lineNum="40" parent="globals/Stopwatch" pc="268436981" symbol="getState"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="11" lineNum="41" parent="globals/Stopwatch" pc="268436983" symbol="getState"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="46" parent="globals/Stopwatch" pc="268436992" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="47" parent="globals/Stopwatch" pc="268436996" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="48" parent="globals/Stopwatch" pc="268437006" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="49" parent="globals/Stopwatch" pc="268437013" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="50" parent="globals/Stopwatch" pc="268437020" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="12" lineNum="52" parent="globals/Stopwatch" pc="268437045" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="13" lineNum="18" parent="globals/Stopwatch" pc="268437057" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="13" lineNum="19" parent="globals/Stopwatch" pc="268437059" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="14" lineNum="23" parent="globals/Stopwatch" pc="268437072" symbol="onReset"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="14" lineNum="24" parent="globals/Stopwatch" pc="268437074" symbol="onReset"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="14" lineNum="25" parent="globals/Stopwatch" pc="268437083" symbol="onReset"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="14" lineNum="26" parent="globals/Stopwatch" pc="268437096" symbol="onReset"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="30" parent="globals/Stopwatch" pc="268437110" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="31" parent="globals/Stopwatch" pc="268437112" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="32" parent="globals/Stopwatch" pc="268437129" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="33" parent="globals/Stopwatch" pc="268437154" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="35" parent="globals/Stopwatch" pc="268437170" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" id="15" lineNum="36" parent="globals/Stopwatch" pc="268437189" symbol="onStartOrStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="26" parent="globals/TimeTrackerView" pc="268437203" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="27" parent="globals/TimeTrackerView" pc="268437205" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="28" parent="globals/TimeTrackerView" pc="268437246" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="29" parent="globals/TimeTrackerView" pc="268437270" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="30" parent="globals/TimeTrackerView" pc="268437294" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="31" parent="globals/TimeTrackerView" pc="268437318" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="17" lineNum="32" parent="globals/TimeTrackerView" pc="268437342" symbol="onLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="111" parent="globals/TimeTrackerView" pc="268437367" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="112" parent="globals/TimeTrackerView" pc="268437371" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="113" parent="globals/TimeTrackerView" pc="268437410" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="114" parent="globals/TimeTrackerView" pc="268437426" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="115" parent="globals/TimeTrackerView" pc="268437437" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="18" lineNum="117" parent="globals/TimeTrackerView" pc="268437447" symbol="getTime"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="90" parent="globals/TimeTrackerView" pc="268437530" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="91" parent="globals/TimeTrackerView" pc="268437534" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="92" parent="globals/TimeTrackerView" pc="268437549" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="93" parent="globals/TimeTrackerView" pc="268437574" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="94" parent="globals/TimeTrackerView" pc="268437580" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="95" parent="globals/TimeTrackerView" pc="268437604" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="96" parent="globals/TimeTrackerView" pc="268437617" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="97" parent="globals/TimeTrackerView" pc="268437641" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="100" parent="globals/TimeTrackerView" pc="268437657" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="101" parent="globals/TimeTrackerView" pc="268437664" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="104" parent="globals/TimeTrackerView" pc="268437680" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="106" parent="globals/TimeTrackerView" pc="268437687" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="19" lineNum="108" parent="globals/TimeTrackerView" pc="268437693" symbol="getHeartRate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="20" lineNum="130" parent="globals/TimeTrackerView" pc="268437699" symbol="getCalories"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="20" lineNum="131" parent="globals/TimeTrackerView" pc="268437701" symbol="getCalories"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="78" parent="globals/TimeTrackerView" pc="268437732" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="79" parent="globals/TimeTrackerView" pc="268437736" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="80" parent="globals/TimeTrackerView" pc="268437746" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="81" parent="globals/TimeTrackerView" pc="268437756" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="82" parent="globals/TimeTrackerView" pc="268437775" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="21" lineNum="83" parent="globals/TimeTrackerView" pc="268437785" symbol="toHM"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="22" lineNum="86" parent="globals/TimeTrackerView" pc="268437825" symbol="getStopwatch"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="22" lineNum="87" parent="globals/TimeTrackerView" pc="268437827" symbol="getStopwatch"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="23" lineNum="123" parent="globals/TimeTrackerView" pc="268437856" symbol="getDate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="23" lineNum="124" parent="globals/TimeTrackerView" pc="268437860" symbol="getDate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="23" lineNum="125" parent="globals/TimeTrackerView" pc="268437899" symbol="getDate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="23" lineNum="126" parent="globals/TimeTrackerView" pc="268437944" symbol="getDate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="23" lineNum="127" parent="globals/TimeTrackerView" pc="268437968" symbol="getDate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="24" lineNum="15" parent="globals/TimeTrackerView" pc="268438017" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="24" lineNum="16" parent="globals/TimeTrackerView" pc="268438021" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="24" lineNum="17" parent="globals/TimeTrackerView" pc="268438039" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="24" lineNum="18" parent="globals/TimeTrackerView" pc="268438067" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="42" parent="globals/TimeTrackerView" pc="268438103" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="44" parent="globals/TimeTrackerView" pc="268438105" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="45" parent="globals/TimeTrackerView" pc="268438134" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="46" parent="globals/TimeTrackerView" pc="268438163" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="47" parent="globals/TimeTrackerView" pc="268438192" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="48" parent="globals/TimeTrackerView" pc="268438221" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="50" parent="globals/TimeTrackerView" pc="268438250" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="52" parent="globals/TimeTrackerView" pc="268438270" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="53" parent="globals/TimeTrackerView" pc="268438287" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="55" parent="globals/TimeTrackerView" pc="268438312" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="56" parent="globals/TimeTrackerView" pc="268438329" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="58" parent="globals/TimeTrackerView" pc="268438354" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="59" parent="globals/TimeTrackerView" pc="268438371" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="61" parent="globals/TimeTrackerView" pc="268438396" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="62" parent="globals/TimeTrackerView" pc="268438413" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="65" parent="globals/TimeTrackerView" pc="268438438" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="26" lineNum="67" parent="globals/TimeTrackerView" pc="268438460" symbol="onUpdate"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="27" lineNum="21" parent="globals/TimeTrackerView" pc="268438488" symbol="onTimer"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerView.mc" id="27" lineNum="22" parent="globals/TimeTrackerView" pc="268438490" symbol="onTimer"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="28" lineNum="11" parent="globals/TimeTrackerMenuDelegate" pc="268438507" symbol="onMenuItem"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="28" lineNum="12" parent="globals/TimeTrackerMenuDelegate" pc="268438509" symbol="onMenuItem"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="28" lineNum="13" parent="globals/TimeTrackerMenuDelegate" pc="268438520" symbol="onMenuItem"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="28" lineNum="14" parent="globals/TimeTrackerMenuDelegate" pc="268438544" symbol="onMenuItem"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="28" lineNum="15" parent="globals/TimeTrackerMenuDelegate" pc="268438555" symbol="onMenuItem"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="29" lineNum="7" parent="globals/TimeTrackerMenuDelegate" pc="268438580" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerMenuDelegate.mc" id="29" lineNum="8" parent="globals/TimeTrackerMenuDelegate" pc="268438582" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="30" lineNum="17" parent="globals/TimeTrackerApp" pc="268438601" symbol="onStart"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="31" lineNum="25" parent="globals/TimeTrackerApp" pc="268438604" symbol="getInitialView"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="31" lineNum="26" parent="globals/TimeTrackerApp" pc="268438606" symbol="getInitialView"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="32" lineNum="10" parent="globals/TimeTrackerApp" pc="268438663" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="32" lineNum="11" parent="globals/TimeTrackerApp" pc="268438665" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="32" lineNum="12" parent="globals/TimeTrackerApp" pc="268438683" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" id="33" lineNum="21" parent="globals/TimeTrackerApp" pc="268438718" symbol="onStop"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="13" parent="globals/Rez/Layouts" pc="268438721" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="14" parent="globals/Rez/Layouts" pc="268438733" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="16" parent="globals/Rez/Layouts" pc="268438845" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="18" parent="globals/Rez/Layouts" pc="268438957" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="20" parent="globals/Rez/Layouts" pc="268439092" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="22" parent="globals/Rez/Layouts" pc="268439204" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="34" lineNum="24" parent="globals/Rez/Layouts" pc="268439316" symbol="MainLayout"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="35" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268439373" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="36" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268439392" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="36" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268439394" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="36" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268439412" symbol="initialize"/>
+<entry filename="/Users/alishali/Desktop/garminTracker/TimeTracker/bin/gen/006-B3077-00/source/Rez.mcgen" id="36" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268439468" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8389346" symbol="text"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="8391333" symbol="delegate"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="26" symbol="&lt;globals/TimeTrackerView/&lt;&gt;dateElement&gt;"/>
+<entry field="true" id="8388731" symbol="startTime"/>
+<entry field="true" id="33" symbol="&lt;globals/TimeTrackerView/&lt;&gt;stopwatchElement&gt;"/>
+<entry id="36" method="true" symbol="MainLayout"/>
+<entry id="20" method="true" symbol="onReset"/>
+<entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+<entry id="7" object="true" symbol="Stopwatch"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry id="30" method="true" symbol="getStopwatch"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="8389782" module="true" symbol="StringUtil"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8389108" method="true" symbol="onResponse"/>
+<entry field="true" id="23" symbol="uptimeAtStart"/>
+<entry field="true" id="38" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389594" symbol="headers"/>
+<entry id="29" method="true" symbol="getHeartRate"/>
+<entry field="true" id="25" symbol="&lt;globals/TimeTrackerView/&lt;&gt;clockElement&gt;"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="15" method="true" symbol="sendToToggle"/>
+<entry id="8" object="true" symbol="TimeTrackerApp"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="27" method="true" symbol="getCalories"/>
+<entry id="8389348" symbol="font"/>
+<entry id="42" symbol="item_2"/>
+<entry id="41" symbol="item_1"/>
+<entry id="18" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="28" method="true" symbol="getDate"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="10" object="true" symbol="TimeTrackerMenuDelegate"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="37" object="true" symbol="MainMenu"/>
+<entry field="true" id="16" symbol="timeEntries"/>
+<entry id="9" object="true" symbol="TimeTrackerDelegate"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry field="true" id="31" symbol="&lt;globals/TimeTrackerView/&lt;&gt;heartrateLabel&gt;"/>
+<entry id="21" method="true" symbol="onStartOrStop"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="19" method="true" symbol="getTime"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="14" symbol="stopwatch"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="22" symbol="stopwatchTimeBeforeStop"/>
+<entry field="true" id="35" symbol="LauncherIcon"/>
+<entry id="34" method="true" symbol="toHM"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="12" symbol="buttonClicked"/>
+<entry field="true" id="8390522" symbol="key"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389902" method="true" symbol="getState"/>
+<entry field="true" id="24" symbol="&lt;globals/TimeTrackerView/&lt;&gt;caloriesElement&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="11" object="true" symbol="TimeTrackerView"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="17" module="true" symbol="Layouts"/>
+<entry field="true" id="8389487" symbol="state"/>
+<entry field="true" id="13" symbol="pid"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="32" method="true" symbol="onTimer"/>
+<entry field="true" id="40" symbol="menu_label_2"/>
+<entry field="true" id="39" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435919" name="responseCode" stackId="1" startPc="268435586"/>
+<entry arg="true" endPc="268435919" name="data" stackId="2" startPc="268435586"/>
+<entry arg="true" endPc="268436288" name="start" stackId="1" startPc="268436095"/>
+<entry arg="true" endPc="268436288" name="duration" stackId="2" startPc="268436095"/>
+<entry arg="true" endPc="268436288" name="pid" stackId="3" startPc="268436095"/>
+<entry endPc="268436288" name="message" stackId="4" startPc="268436099"/>
+<entry endPc="268436288" name="options" stackId="5" startPc="268436099"/>
+<entry arg="true" endPc="268436980" name="keyEvent" stackId="1" startPc="268436289"/>
+<entry endPc="268436974" name="duration" stackId="2" startPc="268436373"/>
+<entry endPc="268436974" name="now" stackId="3" startPc="268436373"/>
+<entry endPc="268437056" name="start" stackId="1" startPc="268436996"/>
+<entry endPc="268437056" name="timeSinceStart" stackId="2" startPc="268436996"/>
+<entry arg="true" endPc="268437366" name="dc" stackId="1" startPc="268437203"/>
+<entry endPc="268437529" name="today" stackId="1" startPc="268437371"/>
+<entry endPc="268437529" name="hourMod" stackId="2" startPc="268437371"/>
+<entry endPc="268437689" name="heartRate" stackId="1" startPc="268437549"/>
+<entry endPc="268437653" name="HRH" stackId="2" startPc="268437580"/>
+<entry endPc="268437653" name="HRS" stackId="3" startPc="268437580"/>
+<entry arg="true" endPc="268437824" name="millisecs" stackId="1" startPc="268437732"/>
+<entry endPc="268437824" name="secs" stackId="2" startPc="268437736"/>
+<entry endPc="268437824" name="hr" stackId="3" startPc="268437736"/>
+<entry endPc="268437824" name="min" stackId="4" startPc="268437736"/>
+<entry endPc="268437824" name="sec" stackId="5" startPc="268437736"/>
+<entry endPc="268438016" name="today" stackId="1" startPc="268437860"/>
+<entry endPc="268438016" name="dayOfWeek" stackId="2" startPc="268437860"/>
+<entry endPc="268438016" name="dayOfMonth" stackId="3" startPc="268437860"/>
+<entry endPc="268438101" name="timer" stackId="1" startPc="268438021"/>
+<entry arg="true" endPc="268438487" name="dc" stackId="1" startPc="268438103"/>
+<entry arg="true" endPc="268438579" name="item" stackId="1" startPc="268438507"/>
+<entry arg="true" endPc="268439372" name="dc" stackId="1" startPc="268438721"/>
+<entry endPc="268439372" name="rez_cmp_local_text_clock" stackId="2" startPc="268438733"/>
+<entry endPc="268439372" name="rez_cmp_local_text_date" stackId="3" startPc="268438733"/>
+<entry endPc="268439372" name="rez_cmp_local_text_stopwatch" stackId="4" startPc="268438733"/>
+<entry endPc="268439372" name="rez_cmp_local_text_heartrate" stackId="5" startPc="268438733"/>
+<entry endPc="268439372" name="rez_cmp_local_text_calories" stackId="6" startPc="268438733"/>
+</localVars>
+<deviceInfo partNumber="006-B3077-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TimeTrackerDelegate" offset="198" parentId="globals" symbolId="TimeTrackerDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="293" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Stopwatch" offset="356" parentId="globals" symbolId="Stopwatch" type="class"/>
+<dataEntry label="globals/TimeTrackerView" offset="459" parentId="globals" symbolId="TimeTrackerView" type="class"/>
+<dataEntry label="globals/TimeTrackerMenuDelegate" offset="634" parentId="globals" symbolId="TimeTrackerMenuDelegate" type="class"/>
+<dataEntry label="globals/TimeTrackerApp" offset="689" parentId="globals" symbolId="TimeTrackerApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="760" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="799" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="838" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="877" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="932" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="TimeTrackerDelegate" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Stopwatch">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="TimeTrackerView" startPc="268435529">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="TimeTrackerMenuDelegate" startPc="268435548">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435585" name="&lt;init&gt;" parent="TimeTrackerApp" startPc="268435567">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435919" name="onResponse" parent="TimeTrackerDelegate" startPc="268435586">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436094" name="initialize" parent="TimeTrackerDelegate" startPc="268435920">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436288" name="sendToToggle" parent="TimeTrackerDelegate" startPc="268436095">
+<param id="start"/>
+<param id="duration"/>
+<param id="pid"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436980" name="onKey" parent="TimeTrackerDelegate" startPc="268436289">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436991" name="getState" parent="Stopwatch" startPc="268436981">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437056" name="getTime" parent="Stopwatch" startPc="268436992">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437071" name="initialize" parent="Stopwatch" startPc="268437057">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437109" name="onReset" parent="Stopwatch" startPc="268437072">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437202" name="onStartOrStop" parent="Stopwatch" startPc="268437110">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TimeTrackerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437366" name="onLayout" parent="TimeTrackerView" startPc="268437203">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437529" name="getTime" parent="TimeTrackerView" startPc="268437367">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437698" name="getHeartRate" parent="TimeTrackerView" startPc="268437530">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437731" name="getCalories" parent="TimeTrackerView" startPc="268437699">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437824" name="toHM" parent="TimeTrackerView" startPc="268437732">
+<param id="millisecs"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437855" name="getStopwatch" parent="TimeTrackerView" startPc="268437825">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438016" name="getDate" parent="TimeTrackerView" startPc="268437856">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438102" name="initialize" parent="TimeTrackerView" startPc="268438017">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TimeTrackerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438487" name="onUpdate" parent="TimeTrackerView" startPc="268438103">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438506" name="onTimer" parent="TimeTrackerView" startPc="268438488">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438579" name="onMenuItem" parent="TimeTrackerMenuDelegate" startPc="268438507">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438600" name="initialize" parent="TimeTrackerMenuDelegate" startPc="268438580">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438603" name="onStart" parent="TimeTrackerApp" startPc="268438601">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438662" name="getInitialView" parent="TimeTrackerApp" startPc="268438604">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438717" name="initialize" parent="TimeTrackerApp" startPc="268438663">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438720" name="onStop" parent="TimeTrackerApp" startPc="268438718">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439372" name="MainLayout" parent="Layouts" startPc="268438721">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439391" name="&lt;init&gt;" parent="MainMenu" startPc="268439373">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439524" name="initialize" parent="MainMenu" startPc="268439392">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

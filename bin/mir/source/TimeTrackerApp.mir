@@ -1,0 +1,68 @@
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 4; ]
+import Toybox.Communications;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 6; @position = 4; ]
+var delegate = null;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 8; ]
+class TimeTrackerApp extends Application.AppBase{
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 10; ]
+    function initialize() as Void {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_10_26_14_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" 11 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" 12 8 ]
+        %tmp.7 = getv ? :TimeTrackerDelegate;
+        %tmp.4 = newc %tmp.7 ();
+        putv self :delegate %tmp.4;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_10_26_14_4_stop:
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 17; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 21; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 25; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_25_68_27_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" 26 8 ]
+        %tmp.1 = newa 2;
+        %tmp.5 = getv ? :TimeTrackerView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        %tmp.9 = getv ? :delegate;
+        %tmp.10 = dup %tmp.7;
+        %tmp.11 = aputv %tmp.10 1 %tmp.9;
+        ret %tmp.11;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_25_68_27_4_stop:
+    }
+}
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 31; ]
+function getApp() as TimeTrackerApp {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_31_36_33_0_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc" 32 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 TimeTrackerApp;
+    ret %tmp.4;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_TimeTrackerApp_mc_31_36_33_0_stop:
+}
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/TimeTrackerApp.mc"; @line = 1; ]
+<init> {
+}

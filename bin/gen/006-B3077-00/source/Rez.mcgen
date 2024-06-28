@@ -1,0 +1,43 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_clock = new WatchUi.Text({:identifier=>"clock", :locX=>(240 * (26 / 100.0)), :locY=>(240 * (20 / 100.0)), :text=>"CLOCK", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_date = new WatchUi.Text({:identifier=>"date", :locX=>(240 * (75 / 100.0)), :locY=>(240 * (20 / 100.0)), :text=>"DATE", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_stopwatch = new WatchUi.Text({:identifier=>"stopwatch", :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_MEDIUM)) * 0.5), :text=>"TIME", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_heartrate = new WatchUi.Text({:identifier=>"heartrate", :locX=>(240 * (26 / 100.0)), :locY=>(240 * (70 / 100.0)), :text=>"HEART", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_calories = new WatchUi.Text({:identifier=>"calories", :locX=>(240 * (75 / 100.0)), :locY=>(240 * (70 / 100.0)), :text=>"CAL", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_clock, rez_cmp_local_text_date, rez_cmp_local_text_stopwatch, rez_cmp_local_text_heartrate, rez_cmp_local_text_calories] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+        class MainMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
+            }
+        }
+    } // Menus
+
+    module Strings {
+        (:initialized) var menu_label_1 as ResourceId;
+        (:initialized) var menu_label_2 as ResourceId;
+        (:initialized) var AppName as ResourceId;
+    } // Strings
+} // Rez

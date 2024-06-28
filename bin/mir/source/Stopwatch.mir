@@ -1,0 +1,147 @@
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 4; ]
+class Stopwatch{
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 4; ]
+    <init> {
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 16 18 ]
+        %tmp.2 = getv ? :STOPWATCH_STATE_RESET;
+        putv self :state %tmp.2;
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 5; ]
+    static
+    enum StopwatchState {
+        [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 6; @position = 8; ]
+        STOPWATCH_STATE_RESET = 0,
+        [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 7; @position = 8; ]
+        STOPWATCH_STATE_STARTED = 1,
+        [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 8; @position = 8; ]
+        STOPWATCH_STATE_STOPPED = 2
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 12; @position = 18; ]
+    protected
+    var uptimeAtStart as Number or Null = null;
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 15; @position = 18; ]
+    protected
+    var stopwatchTimeBeforeStop as Number = 0;
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 16; @position = 18; ]
+    protected
+    var state as StopwatchState;
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 18; ]
+    public
+    function initialize() as Void {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_18_33_20_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 19 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :onReset;
+        invoke %tmp.1 %tmp.2();
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_18_33_20_4_stop:
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 23; ]
+    public
+    function onReset() as Void {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_23_38_27_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 24 8 ]
+        %tmp.1 = null;
+        putv self :uptimeAtStart %tmp.1;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 25 8 ]
+        %tmp.2 = 0;
+        putv self :stopwatchTimeBeforeStop %tmp.2;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 26 8 ]
+        %tmp.4 = getv ? :STOPWATCH_STATE_RESET;
+        putv self :state %tmp.4;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_23_38_27_4_stop:
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 30; ]
+    public
+    function onStartOrStop() as Void {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_30_44_38_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 31 8 ]
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_stmt:
+        %tmp.2 = getv ? :state;
+        %tmp.4 = getv ? :STOPWATCH_STATE_STARTED;
+        %tmp.5 = ne %tmp.2 %tmp.4;
+        bf %tmp.5 @_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_false;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_true:
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_46_34_8_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 32 12 ]
+        %tmp.7 = getv ? :System;
+        %tmp.8 = getv function %tmp.7 :getTimer;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        putv self :uptimeAtStart %tmp.9;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 33 12 ]
+        %tmp.11 = getv ? :STOPWATCH_STATE_STARTED;
+        putv self :state %tmp.11;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_46_34_8_stop:
+        goto @_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_end;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_false:
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_34_15_37_8_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 35 12 ]
+        %tmp.12 = self;
+        %tmp.13 = getv function %tmp.12 :getTime;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        putv self :stopwatchTimeBeforeStop %tmp.14;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 36 12 ]
+        %tmp.16 = getv ? :STOPWATCH_STATE_STOPPED;
+        putv self :state %tmp.16;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_34_15_37_8_stop:
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_31_8_37_8_if_end:
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_30_44_38_4_stop:
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 40; ]
+    public
+    function getState() as StopwatchState {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_40_49_42_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 41 8 ]
+        %tmp.2 = getv ? :state;
+        ret %tmp.2;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_40_49_42_4_stop:
+    }
+    [ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 46; ]
+    public
+    function getTime() as Number {
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 47 8 ]
+        [ "_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_start" "_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_stop" ]
+        %start.1 = local;
+        %tmp.2 = getv ? :uptimeAtStart;
+        lputv %start.1 %tmp.2;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 48 8 ]
+        [ "_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_start" "_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_stop" ]
+        %timeSinceStart.2 = local;
+        %tmp.3 = 0;
+        lputv %timeSinceStart.2 %tmp.3;
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 49 8 ]
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_8_51_8_if_stmt:
+        %tmp.5 = lgetv %start.1;
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_8_51_8_if_end;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_8_51_8_if_true:
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_27_51_8_start:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 50 12 ]
+        %tmp.9 = getv ? :System;
+        %tmp.10 = getv function %tmp.9 :getTimer;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.13 = lgetv %start.1;
+        %tmp.14 = as %tmp.13 { (!Null) };
+        %tmp.15 = sub %tmp.11 %tmp.14;
+        lputv %timeSinceStart.2 %tmp.15;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_27_51_8_stop:
+        goto @_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_8_51_8_if_end;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_49_8_51_8_if_end:
+[ "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc" 52 8 ]
+        %tmp.17 = lgetv %timeSinceStart.2;
+        %tmp.19 = getv ? :stopwatchTimeBeforeStop;
+        %tmp.20 = add %tmp.17 %tmp.19;
+        ret %tmp.20;
+_Users_alishali_Desktop_garminTracker_TimeTracker_source_Stopwatch_mc_46_40_53_4_stop:
+    }
+}
+[ @file = "/Users/alishali/Desktop/garminTracker/TimeTracker/source/Stopwatch.mc"; @line = 2; ]
+<init> {
+}
