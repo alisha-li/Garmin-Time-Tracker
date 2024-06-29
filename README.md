@@ -3,6 +3,6 @@ Time tracking application for Garmin Watch, coded in Monkey C, which connects to
 
 To use: set API token, workspace ids, and project ids, at the top of TimeTrackerDelegate. You can configure this to any projects you'd like (Toggl is intended for billable projects). My code sets the up button as work, down as athletics, back as leisure, and start as life. 
 
-Thank you to Garmin Forums, especially FlowState and jim_m_58, for troubleshooting and understanding the structure of ConnectIQ apps.
+Utilized Garmin Forums (thank you FlowState and jim_m_58) for troubleshooting and understanding the structure of ConnectIQ apps.
 
 Please email me at al138@wellesley.edu for more details or questions.
