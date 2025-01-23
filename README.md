@@ -6,3 +6,6 @@ To use: set API token, workspace ids, and project ids, at the top of TimeTracker
 Utilized Garmin Forums (thank you FlowState and jim_m_58) for troubleshooting and understanding the structure of ConnectIQ apps.
 
 Please email me at al138@wellesley.edu for more details or questions.
+
+https://github.com/user-attachments/assets/3f5bb440-ea30-45e6-88eb-217dad29ea7f
+
